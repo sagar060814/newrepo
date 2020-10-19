@@ -1,6 +1,9 @@
-#include<isotream>
-{int mainn()
+#include<stdio.h>
+int main()
+{
   int a,b;
- print(enter 2 numbers)
-   scanf("%d",&a)
-   scanf("%d",&b)
+ printf("enter 2 numbers");
+   scanf("%d",&a);
+   scanf("%d",&b);
+printf("%d",a+b);
+}
